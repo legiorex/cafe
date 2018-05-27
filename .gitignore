@@ -1,6 +1,8 @@
 node_modules
 build
 .idea/
+npm-debug.log
+package-lock.json
 ### Windows template
 # Windows thumbnail cache files
 Thumbs.db
