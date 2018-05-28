@@ -1,0 +1,10 @@
+.nav{
+  display: flex;
+  align-items: center;
+
+  &__link{
+    padding-left: 63px;
+    text-decoration: none;
+    color: #fff;
+  }
+}
