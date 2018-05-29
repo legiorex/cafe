@@ -14,17 +14,13 @@
     justify-content: space-between;
     flex-wrap: wrap;
     align-items: center;
-    
-    &--form{
-      display: flex;
-      height: 42px;
-      width: 42px;
-      border-radius: 50%;
-      background: lighten($main-color, 10%);
+
+    .icon--form{
       margin-left: 25px;
     }
   }
 }
+
 .logo__picture{
   padding: 25px 0 25px 0;
 }

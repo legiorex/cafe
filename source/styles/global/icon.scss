@@ -1,12 +1,28 @@
-.icon{
-  margin: auto auto 23px auto;
+.icon--form{
+  display: flex;
+  height: 42px;
+  width: 42px;
+  border-radius: 50%;
+  background: lighten($main-color, 10%);
 }
-.icon-like{
-  @include sprite($like)
-}
-.icon-book{
-  @include sprite($book)
-}
-.icon-message{
-  @include sprite($message)
-}
+
+
+
+
+
+//.icon{
+//  margin: auto auto 23px auto;
+//}
+
+
+
+//
+//.icon-like{
+//  @include sprite($like)
+//}
+//.icon-book{
+//  @include sprite($book)
+//}
+//.icon-message{
+//  @include sprite($message)
+//}
