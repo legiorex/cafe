@@ -5,6 +5,15 @@
     position: relative;
   }
 
+  &__bg-text{
+    @include center-xy;
+    font-family: $ff-malina;
+    font-size: 9.375rem;
+    color: #fff;
+    opacity: 0.1;
+    text-transform: uppercase;
+  }
+
   &__content {
     display: flex;
     justify-content: space-between;
@@ -84,6 +93,12 @@
 .title__description{
   font-size: 0.9375rem;
   margin-bottom: 52px;
+  position: relative;
+  z-index: 3;
+}
+.cake__picture{
+  position: relative;
+  z-index: 2;
 }
 
 
