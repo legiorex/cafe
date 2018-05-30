@@ -20,3 +20,28 @@
 .icon-heart{
   @include sprite($icon-heart)
 }
+.icon-cake{
+  @include sprite($cake)
+}
+.icon-biscuit{
+  @include sprite($biscuit)
+}
+.icon-donut{
+  @include sprite($donut)
+}
+.icon-roll{
+  @include sprite($roll)
+}
+.icon-marshmallows{
+  @include sprite($marshmallows)
+}
+.icon-chocolate{
+  @include sprite($chocolate)
+}
+.icon-capcake{
+  @include sprite($capcake)
+}
+.icon-candy{
+  @include sprite($candy)
+}
+

@@ -1,0 +1,49 @@
+.delivery{
+  background: #feb214;
+  padding-top: 100px;
+
+  &__info{
+    text-align: center;
+    margin-bottom: 90px;
+  }
+  
+  &__title{
+    color: #393939;
+    margin-bottom: 0;
+  }
+
+  &__text{
+    width: 78%;
+    margin: 0 auto;
+    color: #883213;
+  }
+
+  &__list{
+    display: flex;
+
+  }
+
+  &__item{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    .icon{
+
+    }
+  }
+}
+.item__title{
+  font-size: 2rem;
+  color: #393939;
+}
+.item__text{
+  font-size: 0.875rem;
+}
+
+///Сдвиг иконок из-за размеров
+.icon-cake--up{
+  margin-top: -64px;
+}
+.icon-capcake--up{
+  margin-top: -12px;
+}
