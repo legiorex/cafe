@@ -1,0 +1,46 @@
+.delicious{
+  background: #e3e4e4;
+
+  &__info{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 50px 28px 0 54px;
+
+    &--description{
+      width: 50%;
+    }
+
+    &--cook{
+      width: 36%;
+    }
+  }
+
+  &__title{
+    color: #2b2f5f;
+  }
+  
+  &__text{
+    color: #747474;
+    margin-bottom: 74px;
+  }
+
+  &__list{
+    display: flex;
+    justify-content: space-between;
+    padding: 0;
+    width: 125%;
+    margin-right: 20px;
+  }
+
+  &__item{
+    width: 25%;
+  }
+}
+.cook__picture{
+  width: 100%;
+}
+.icon__text{
+  color: #747474;
+  font-family: $ff-malina;
+}

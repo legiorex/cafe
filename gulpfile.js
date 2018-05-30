@@ -58,7 +58,7 @@ gulp.task('js', function() {
 
 /* ------------ Sprite ------------- */
 gulp.task('sprite', function(cb) {
-  const spriteData = gulp.src('source/images/icons/*.png')
+  const spriteData = gulp.src('source/images/icon/*.png')
   .pipe(spritesmith({
     imgName: 'sprite.png',
     imgPath: '../images/sprite.png',

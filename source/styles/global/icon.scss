@@ -6,23 +6,17 @@
   background: lighten($main-color, 10%);
 }
 
+.icon{
+  margin: 0 0 40px 0;
 
+}
 
-
-
-//.icon{
-//  margin: auto auto 23px auto;
-//}
-
-
-
-//
-//.icon-like{
-//  @include sprite($like)
-//}
-//.icon-book{
-//  @include sprite($book)
-//}
-//.icon-message{
-//  @include sprite($message)
-//}
+.icon-cap{
+  @include sprite($icon-cap)
+}
+.icon-list{
+  @include sprite($icon-list)
+}
+.icon-heart{
+  @include sprite($icon-heart)
+}
