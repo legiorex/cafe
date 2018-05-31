@@ -1,0 +1,10 @@
+.form
+    .form__cover
+        .title.title__hero.form__title Закажи сейчас
+        .form__fields
+            input.form__input(type='text' placeholder='Введите ваше имя' data-valid="required")
+            input.form__input(type='email' placeholder='Введите ваш e-mail' data-valid="required" data-email)
+            input.form__input(type='text' placeholder='8 (___) ___ -__-__' data-valid="required" data-number)
+            .form__input.form__input--checkbox
+                input(type='checkbox' name='callback' checked)
+                label='Заказать обратный звонок'

@@ -20,16 +20,13 @@
 
   &__list{
     display: flex;
-
+    margin-bottom: 0;
   }
 
   &__item{
     display: flex;
     flex-direction: column;
     align-items: center;
-    .icon{
-
-    }
   }
 }
 .item__title{
@@ -38,6 +35,10 @@
 }
 .item__text{
   font-size: 0.875rem;
+  color: #ab594a;
+  padding-left: 11px;
+  padding-right: 11px;
+  text-align: center;
 }
 
 ///Сдвиг иконок из-за размеров
