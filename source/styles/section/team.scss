@@ -1,21 +1,22 @@
-.team{
+.team {
   background: #dcdcdd url("../images/bg_team.jpg") center/cover no-repeat;
-  
-  
-  &__header{
+  padding-top: 85px;
+  padding-bottom: 117px;
+
+  &__header {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
     color: #2b2f60;
     margin-bottom: 110px;
 
-    &--title{
+    &--title {
       width: 31%;
       margin-right: 0px;
     }
   }
 
-  &__list{
+  &__list {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
@@ -26,46 +27,45 @@
     padding: 0;
   }
 
-  &__item{
+  &__item {
     width: 33%;
     padding: 10px 19px 35px 28px;
     position: relative;
 
-    &:hover{
-      width: 33%;
-      padding: 10px 19px 35px 28px;
-      background: #893213;
-      border-radius: 30px;
-      color: #ffa92b;
+    //&:hover{
+    //  width: 33%;
+    //  padding: 10px 19px 35px 28px;
+    //  background: #893213;
+    //  border-radius: 30px;
+    //  color: #ffa92b;
+    //
+    //  &::before{
+    //    content: '';
+    //    border: 30px solid transparent;
+    //    border-top: 17px solid #893213;
+    //    position: absolute;
+    //    top: 146px;
+    //    left: 74px;
+    //    position: absolute;
+    //  }
 
-      &::before{
-        content: '';
-        border: 30px solid transparent;
-        border-top: 17px solid #893213;
-        position: absolute;
-        top: 146px;
-        left: 74px;
-        position: absolute;
-      }
-
-      .team__profession{
-        color: #fff;
-      }
-    }
+    //.team__profession {
+    //  color: #fff;
+    //}
   }
 
-  &__profession{
+  &__profession {
     font-family: Arial;
     font-size: 1rem;
     color: #8d8d8d;
 
   }
 
-  &__text{
+  &__text {
     color: #747474;
   }
 
-  &__content{
+  &__content {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
@@ -77,7 +77,7 @@
     font-size: 0.875rem;
     font-style: italic;
 
-    &--bold{
+    &--bold {
       color: #747474;
       font-weight: bold;
       margin-top: 32px;
@@ -89,19 +89,42 @@
       font-style: italic;
     }
 
-    &--p{
+    &--p {
       color: #747474;
       margin-top: 30px;
     }
   }
 
-  &__cook{
+  &__cook {
     width: 40%;
     position: relative;
     top: -88px;
-    &__picture{
+    &__picture {
       width: 100%;
     }
   }
+}
+.active {
+  width: 33%;
+  padding: 10px 19px 35px 28px;
+  background: #893213;
+  border-radius: 30px;
+  color: #ffa92b;
+
+  &::before {
+    content: '';
+    border: 30px solid transparent;
+    border-top: 17px solid #893213;
+    position: absolute;
+    top: 146px;
+    left: 74px;
+    position: absolute;
+  }
+
+  .team__profession {
+    color: #fff;
+  }
 
 }
+
+
