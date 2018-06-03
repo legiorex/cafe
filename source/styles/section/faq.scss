@@ -21,17 +21,27 @@
       border-bottom: 3px dashed #fff;
       padding-bottom: 12px;
       margin-bottom: 20px;
+
+      &:hover{
+        cursor: pointer;
+      }
     }
 
     &--desc{
-
+      display: none;
       padding-left: 67px;
       margin-bottom: 20px;
 
+      .show {
+        display: block;
+      }
     }
   }
+
+
 
   ol{
     list-style-type: decimal;
   }
 }
+

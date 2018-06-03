@@ -49,6 +49,7 @@ gulp.task('js', function() {
     return gulp.src([
             'source/js/scroll.js',
             'source/js/tab.js',
+            'source/js/acord.js',
             'source/js/main.js'
         ])
         .pipe(sourcemaps.init())
